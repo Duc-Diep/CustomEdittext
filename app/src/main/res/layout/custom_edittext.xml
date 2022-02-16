@@ -2,11 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <EditText
+
+    <com.ducdiep.customedittext.MyEditText
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    </EditText>
+    </com.ducdiep.customedittext.MyEditText>
 
     <TextView
         android:id="@+id/tv_warning"
@@ -16,4 +17,5 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
         android:textColor="@color/blue" />
+
 </RelativeLayout>
